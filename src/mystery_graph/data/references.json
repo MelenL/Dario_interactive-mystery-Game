@@ -1,0 +1,66 @@
+[
+  {
+    "id": "reference_platform",
+    "title": "The Platform That Never Moved",
+    "theme": "railway station, mistaken assumptions, sound",
+    "scene": "A station volunteer hears an arrival announcement, checks the platform, and shuts the waiting room. No train has arrived, yet she has done exactly the right thing.",
+    "explanation": "The closed station is a museum. A motion sensor plays the historical arrival recording when the last visitor passes the exit exhibit. The volunteer checks that the platform gallery is empty before closing.",
+    "mechanism": "An ordinary signal has a different purpose in a changed setting. Distinguish a working railway from a museum."
+  },
+  {
+    "id": "reference_greenhouse",
+    "title": "The Greenhouse Umbrella",
+    "theme": "garden, greenhouse, experiment, sunlight",
+    "scene": "A gardener opens an umbrella inside a greenhouse every sunny morning. It stays dry, the plants beneath it thrive, and she removes it when the clouds arrive.",
+    "explanation": "She is comparing shade-tolerant seedlings under filtered and direct light. The umbrella shades one tray during intense sunlight; she removes it when light is already diffuse.",
+    "mechanism": "A familiar object is used for a different physical property. The weather matters through light rather than rain."
+  },
+  {
+    "id": "reference_gallery",
+    "title": "The Empty Frame",
+    "theme": "gallery, accessibility, hidden function",
+    "scene": "A curator replaces a celebrated picture with an empty frame for one hour. Visitors who came specifically for that picture thank her afterwards.",
+    "explanation": "The picture is temporarily resting on a low table for a supervised tactile reproduction workshop. Visitors with limited vision can explore a raised replica mounted behind the removable picture panel. The wall frame is empty while the panel is being used.",
+    "mechanism": "The observer sees absence at one location but the object has a useful role elsewhere. Ask where it went and who the visitors are."
+  },
+  {
+    "id": "reference_bakery",
+    "title": "The Backwards Clock",
+    "theme": "bakery, reflection, timing",
+    "scene": "A baker installs a clock whose face looks backwards to everyone at the counter. Her baking becomes more accurate, and she refuses to turn it around.",
+    "explanation": "She monitors the wall behind her through a mirror above her workbench. A reversed clock face is legible in that mirror, letting her check the time without leaving the dough.",
+    "mechanism": "The correct viewpoint reverses the apparent anomaly. The design is adapted to the user's indirect line of sight."
+  },
+  {
+    "id": "reference_library",
+    "title": "The Missing Page Numbers",
+    "theme": "library, printing, orientation",
+    "scene": "A librarian receives a book with perfectly printed words but apparently missing page numbers. She turns the book upside down, smiles, and accepts it without complaint.",
+    "explanation": "It is a two-direction reading book: two short works start at opposite covers and meet in the middle. She was examining the second work from the first work's orientation; its page numbers were at the opposite edge.",
+    "mechanism": "A document has two valid starting points. The observer assumes a conventional layout."
+  },
+  {
+    "id": "reference_theatre",
+    "title": "The Applause Before the Entrance",
+    "theme": "theatre, rehearsal, audio cues",
+    "scene": "An actor receives applause before stepping onstage. The auditorium is empty, and he tells the technician that the timing is finally right.",
+    "explanation": "He is rehearsing an entrance timed to a recorded applause cue. The technician had previously played the cue too late. Nobody is attending the rehearsal.",
+    "mechanism": "A social sound can be recorded rather than produced by present observers. Establish whether the event is a performance or rehearsal."
+  },
+  {
+    "id": "reference_archive",
+    "title": "The Warm Archive",
+    "theme": "archive, preservation, temperature, condensation",
+    "scene": "An archivist leaves a sealed box in a warm room before opening it. Opening it immediately would be faster, but would put the documents at risk.",
+    "explanation": "The box has just come out of cold storage. Warming it while sealed prevents moist room air from condensing directly on the cold documents when the lid is opened.",
+    "mechanism": "A delay protects against a change in physical conditions. The risk comes from opening the container, not leaving it closed."
+  },
+  {
+    "id": "reference_bridge",
+    "title": "The Shorter Route",
+    "theme": "canal, bridge, delivery, scheduling",
+    "scene": "A courier waits motionless for five minutes at a canal even though an open pedestrian bridge is visible nearby. The wait lets her finish earlier than taking that bridge.",
+    "explanation": "She is beside a scheduled bicycle ferry that lands directly at her destination. The visible bridge crosses to an island whose only exit requires a long loop, so waiting for the ferry is quicker.",
+    "mechanism": "Visible distance is not route distance. Compare connected paths rather than apparent proximity."
+  }
+]

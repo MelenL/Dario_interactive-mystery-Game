@@ -1,4 +1,4 @@
-# Mystery Graph
+# Dario, interactive mystery game 
 
 **An interactive mystery game powered by Hugging Face models, LangChain, and LangGraph.**
 

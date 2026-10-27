@@ -182,31 +182,6 @@ docs/validation.md             Validation status and a manual evaluation procedu
 .github/workflows/             Manually triggered checks only
 ```
 
-## Validation and limitations
-
-**This implementation has not been launched or tested against a live model.** No inference
-quality, latency, puzzle success rate, or benchmark results are claimed. The test suite is
-provided for later execution; its presence is not a statement that it has passed.
-
-To run the offline contract tests explicitly:
-
-```bash
-python -m pip install -e '.[dev]'
-ruff check .
-HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 LANGSMITH_TRACING=false pytest
-```
-
-The tests use fake model outputs and deterministic fixture embeddings. They cover routing,
-state isolation, schema retries, evidence references, victory conditions, bounded hints, and
-failure atomicity. They do not validate semantic model quality or hardware compatibility.
-The GitHub Actions workflow is **manual only** and does not run on push or pull request.
-
-Remaining limitations include LLM mistakes, incomplete fact retrieval, prompt injection,
-potential spoiler leakage from generated scenes/hints, and imperfect hypothesis grading.
-Structural checks cannot prove that a puzzle is solvable or that an evaluation is semantically
-correct. State is ephemeral and single-process: refreshing a tab, expiry, or a server restart
-can lose the game. See [validation notes](docs/validation.md) for practical checks.
-
 ## References
 
 - [Hugging Face InferenceClient](https://huggingface.co/docs/huggingface_hub/en/guides/inference)
